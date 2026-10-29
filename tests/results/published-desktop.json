@@ -1,0 +1,20 @@
+{
+  "testedAppCommit": "69ad95015d079ad3422b0c51bc7fc922fe47f323",
+  "deploymentRun": "https://github.com/Jomcabe/crystal-vr/actions/runs/40807491368",
+  "url": "https://jocabe.com/crystal-vr/",
+  "browserCacheCleared": true,
+  "secureContext": true,
+  "inlineFavicon": true,
+  "geometry": {"cases": 15, "assertions": 5659},
+  "checks": [
+    "SC/BCC/FCC: all repeat values 1–5",
+    "All six axis buttons; scale buttons; drag; wheel; scale bounds; keyboard reset",
+    "VR menu event wiring and controller ray selectors only, NOT hardware",
+    "40 rebuilds: 2 renderer geometries and 2 draw calls",
+    "390x844 Chromium/CDP touch: drag, pinch, reset and no horizontal overflow"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "warnings": [],
+  "notTested": ["Quest 2 hardware", "native iPhone Safari", "headset performance"]
+}
